@@ -13,57 +13,56 @@ This project demonstrates Agentic RAG concepts with Tavily search tool and Polyg
 
 ## 🚀 Agentic Workflow
 
-<p align="center">
-  <img src="https://github.com/suman520-git/Agentic_RAG_Trading_Bot/blob/main/images/Workflow_graph.png" alt="Architecture of the stack" width="80%"/>
-</p>
 
+![image alt](https://github.com/suman520-git/Agentic_RAG_Trading_Bot/blob/main/images/Workflow_graph.png?raw=true)
 
 ## 📋 Project Structure
 
 ```
-Customer_Support_System-GenAi-RAG           
-├─ config                                   
-│  ├─ config.yaml                           
-│  └─ __init__.py                           
-├─ data                                     
-│  └─ flipkart_product_review.csv           
-├─ data_collection                          
-│  └─ Flipkart_headsetdata_web_scraping.py  
-├─ data_ingestion                           
-│  ├─ ingestion_pipeline.py                 
-│  └─ __init__.py                           
-├─ notebook                                 
-│  └─ Expermentation.ipynb                  
-├─ prompt_library                           
-│  ├─ __pycache__                           
-│  │  ├─ prompt.cpython-310.pyc             
-│  │  └─ __init__.cpython-310.pyc           
-│  ├─ prompt.py                             
-│  └─ __init__.py                           
-├─ retriever                                
-│  ├─ __pycache__                           
-│  │  ├─ retrieval.cpython-310.pyc          
-│  │  └─ __init__.cpython-310.pyc           
-│  ├─ retrieval.py                          
-│  └─ __init__.py                           
-├─ static                                   
-│  └─ style.css                             
-├─ templates                                
-│  └─ chat.html                             
-├─ utils                                    
-│  ├─ __pycache__                           
-│  │  ├─ config_loader.cpython-310.pyc      
-│  │  ├─ model_loader.cpython-310.pyc       
-│  │  └─ __init__.cpython-310.pyc           
-│  ├─ config_loader.py                      
-│  ├─ model_loader.py                       
-│  └─ __init__.py                           
-├─ main.py                                  
-├─ README.md                                
-├─ requirements.txt                         
-├─ setup.py                                 
-├─ Streamlit_ui.py                          
-└─ test.py                                  
+Agentic_RAG_Trading_Bot                  
+├─ agent                                 
+│  ├─ workflow.py                        
+│  └─ __init__.py                        
+├─ config                                
+│  └─ config.yaml                        
+├─ custom_logging                        
+│  ├─ my_logger.py                       
+│  └─ __init__.py                        
+├─ data_ingestion                        
+│  ├─ ingestion_pipeline.py              
+│  └─ __init__.py                        
+├─ data_model                            
+│  ├─ models.py                          
+│  └─ __init__.py                        
+├─ exception                             
+│  ├─ exceptions.py                      
+│  └─ __init__.py                        
+├─ Experimentation                       
+│  └─ experi1.ipynb                      
+├─ fallback_data                         
+│  ├─ 1.docx                             
+│  ├─ stock_market.pdf                   
+│  ├─ stock_market_investing_guide.docx  
+│  └─ trading_basics.pdf                 
+├─ images                                
+│  └─ Workflow_graph.png                 
+├─ logs                                  
+│  ├─ 08_23_2025_03_05_55.log            
+│  ├─ 08_23_2025_03_27_02.log            
+│  └─ 08_23_2025_03_28_20.log            
+├─ toolkit                               
+│  ├─ tools.py                           
+│  └─ __init__.py                        
+├─ utils                                 
+│  ├─ config_loader.py                   
+│  ├─ model_loaders.py                   
+│  └─ __init__.py                        
+├─ main.py                               
+├─ README.md                             
+├─ requirements.txt                      
+├─ setup.py                              
+└─ streamlit_ui.py                       
+            
 
 ```
 
