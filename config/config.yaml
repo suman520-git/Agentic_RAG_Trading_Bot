@@ -1,0 +1,27 @@
+vector_db:
+  index_name: "trading-bot"
+
+retriever:
+  top_k: 3
+  score_theshold: 0.5
+
+embedding_model:
+  provider: "google"
+  model_name: "models/text-embedding-004"
+
+llm:
+  google:
+    provider: "google"
+    model_name: "gemini-1.5-pro"
+
+  groq:
+    provider: "groq"
+    model_name: "meta-llama/llama-4-maverick-17b-128e-instruct"
+
+
+tools:
+  tavily:
+    max_results: 2
+    
+
+

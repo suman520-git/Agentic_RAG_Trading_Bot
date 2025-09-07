@@ -1,0 +1,8 @@
+
+venv
+.env
+agentic_RAG_trading_system.egg-info
+
+.vscode
+
+__pycache__
