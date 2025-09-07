@@ -14,7 +14,7 @@ This project demonstrates Agentic RAG concepts with Tavily search tool and Polyg
 ## 🚀 Agentic Workflow
 
 <p align="center">
-  <img src="D:\Agentic_RAG_Trading_Bot\Workflow_graph.png" alt="Architecture of the stack" width="80%"/>
+  <img src="https://github.com/suman520-git/Agentic_RAG_Trading_Bot/blob/main/images/Workflow_graph.png" alt="Architecture of the stack" width="80%"/>
 </p>
 
 
