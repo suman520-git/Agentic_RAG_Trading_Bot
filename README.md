@@ -11,8 +11,11 @@ This project demonstrates Agentic RAG concepts with Tavily search tool and Polyg
 - Building API with FastAPI 
 - creation of streamlit app file for front end ,integrated with API
 
+## 🚀 Agentic Workflow
 
-
+<p align="center">
+  <img src="D:\Agentic_RAG_Trading_Bot\Workflow_graph.png" alt="Architecture of the stack" width="80%"/>
+</p>
 
 
 ## 📋 Project Structure
