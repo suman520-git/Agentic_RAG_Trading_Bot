@@ -13,7 +13,6 @@ This project demonstrates Agentic RAG concepts with Tavily search tool and Polyg
 
 ## 🚀 Agentic Workflow
 
-
 ![image alt](https://github.com/suman520-git/Agentic_RAG_Trading_Bot/blob/main/images/Workflow_graph.png?raw=true)
 
 ## 📋 Project Structure
